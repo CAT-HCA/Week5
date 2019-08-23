@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/site.css">
+    <title>Menu - Single page app</title>
+</head>
+
+<body>
+    <!--START NAV BAR-->
+
+    <nav class="navbar navbar-dark navbar-expand-lg p-3 px-md-4 bg-info border-bottom shadow-sm">
+        <span class="navbar-brand mb-0 h1">
+            <a class="text-white navHome" href="#">Menu - Single Page App</a></span>
+
+    </nav>
+    <!--END NAV BAR-->
+    <!--MAIN PAGE CONTENT-->
+
+    <main class="container text-center mt-5 dropdown">
+        <button class="btn btn-outline-info dropdown-toggle" type="button" id="viewCategories" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">View Categories</button>
+        <section id="categoryContainer" class="hidden">
+            <div id="categoryList" class="dropdown-menu">
+            </div>
+        </section>
+        <section class="container hidden" id="productsContainer">
+            <div class="row">
+                <div class="col-md-5">
+                    <h3 id="categoryName">&nbsp;</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5">
+                    <ul id="productsList" class="list-group"></ul>
+                    <div class="hidden" id="productCard">
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-body">
+                                <h4 class="card-title" id="cardTitle">&nbsp;</h4>
+                                <p class="card-text" id="cardText1">&nbsp;</p>
+                                <p class="card-text" id="cardText2">&nbsp;</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+    <!--END MAIN PAGE CONTENT-->
+
+    <!-- FOOTER -->
+    <footer class=" w-100 footer border-top border-info fixed-bottom">
+        <div class="col-12 text-center">
+            <p>Cori Trudeau - HartCode Academy 2019 <br>
+                <span class="font-weight-light mt-1">Disclaimer: This is a fictional company and site for educational
+                    purposes only.</span></p>
+        </div>
+    </footer>
+    <!--END FOOTER-->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="scripts/menu_spa_lab.js"></script>
+</body>
+
+</html>
